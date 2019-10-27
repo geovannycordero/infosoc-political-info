@@ -1,7 +1,6 @@
 import React from 'react';
 import './main-content.css';
-import Search from './search/search.js';
-// import SideBar from './sidebar/sidebar';
+import Search from '../search/search.js';
 
 class MainContent extends React.Component{
   constructor(props){
@@ -17,7 +16,7 @@ class MainContent extends React.Component{
 
   render(){
     return (
-      <div className="App">
+      <div className="content">
         <header className="header" onClick={this.goToHomePage}>Información</header>
         <Search/>
         <li>

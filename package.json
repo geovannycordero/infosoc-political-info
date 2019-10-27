@@ -4,8 +4,9 @@
   "private": true,
   "dependencies": {
     "react": "16.9.0",
+    "react-autosuggest": "^9.4.3",
     "react-dom": "16.9.0",
-    "react-sidebar": "^3.0.2"
+    "react-sidebar": "3.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
