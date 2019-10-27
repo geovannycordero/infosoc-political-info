@@ -1,0 +1,21 @@
+.Search {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 70%;
+  height: 50px;
+  text-align: center;
+  font-size: 100%;
+  list-style-type: none;
+  list-style: outside none none;
+}
+
+.suggestions {
+  cursor: pointer;
+}
