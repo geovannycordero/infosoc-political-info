@@ -2,6 +2,7 @@ import './style.css';
 
 import React from "react";
 import Sidebar from "react-sidebar";
+import MainContent from 'content/main-content';
 
 const mql = window.matchMedia(`(min-width: 800px)`);
 
