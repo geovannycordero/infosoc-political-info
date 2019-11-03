@@ -89,8 +89,8 @@ class Search extends React.Component {
 
   // render suggestions.
   renderSuggestion = suggestion => (
-    <div>
-      <h3 className="suggestions">{suggestion.name}</h3>
+    <div className="suggestions">
+      <h3>{suggestion.name}</h3>
       <p>{suggestion.shortdescription}</p>
     </div>
   );
